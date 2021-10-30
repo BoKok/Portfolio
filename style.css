@@ -1,0 +1,48 @@
+.project {
+    display: flex;
+    border-color: black;
+    margin: 10px;
+    border-style: solid;
+}
+
+.subproject {
+    margin: 10px;
+    border-style: solid;
+}
+
+.picture {
+    height: 300px;
+    width: 300px;
+}
+
+#project1 {
+    background-image: url('background1.jpg');
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 18px 20px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #04AA6D;
+  }
